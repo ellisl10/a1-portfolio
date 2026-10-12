@@ -26,7 +26,7 @@ Images with descriptive alt attributes, headings and paragraph text, links to ex
 
 
 (b) CSS features
-Modifying padding and margins, modifying link, text color, or other colors, adding custom fonts
+Modifying padding and margins, modifying link, text color, or other colors, adding custom fonts (with fallbacks)
 
 
 
@@ -46,7 +46,7 @@ Creating a more complex page layout, by including a navigation bar and Leveragin
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar. I also used generative AI on the use of these components, using the following prompts: "Is it better to have a new navbar component on each page, or have one section of the page re-render dynamically on page navigation?"
-
+I used this tutorial to create the typing effect https://css-tricks.com/snippets/css/typewriter-effect/.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?

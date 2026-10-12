@@ -13,6 +13,37 @@
   }
 }
 
-h1 {
-  color: rgb(111, 141, 236);
+.typing-container {
+  display: inline-block;
+  .typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #2563eb;
+    width: 0;
+    color: rgb(111, 141, 236);
+    font-family: "Fira Code", monospace;
+    animation:
+      typing 3.5s steps(30, end) forwards,
+      blink 0.75s step-end infinite;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Keyframes for the blinking cursor */
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #2563eb;
+  }
 }
