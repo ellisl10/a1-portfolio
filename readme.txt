@@ -31,7 +31,7 @@ Modifying padding and margins, modifying link, text color, or other colors, addi
 
 
 (c) Advanced features
-Creating a more complex page layout, by including a navigation bar and Leveraging nested selectors to specify format
+Creating a more complex page layout by including a navigation bar and leveraging nested selectors to specify format
 
 
 
@@ -45,13 +45,18 @@ Creating a more complex page layout, by including a navigation bar and Leveragin
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar. I also used generative AI on the use of these components, using the following prompts: "Is it better to have a new navbar component on each page, or have one section of the page re-render dynamically on page navigation?"
+I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar. 
+I also used generative AI on the use of components and generating alt text, using the following prompts: 
+    1. "Is it better to have a new navbar component on each page, or have one section of the page re-render dynamically on page navigation?"
+    2. "How do you navigate between pages using nav links?"
+    3. "Describe this image for an alt text attribute."
+    4. "How can I create a list of project cards?"
 I used this tutorial to create the typing effect https://css-tricks.com/snippets/css/typewriter-effect/.
-
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 I did not consult with classmates or other individuals.
 
 
 7. Is there anything special we need to know in order to run your code?
+No
 

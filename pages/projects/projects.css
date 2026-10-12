@@ -1,0 +1,68 @@
+.nav-link {
+  &.project {
+    color: #2563eb;
+  }
+}
+
+.project-card {
+  width: 90%;
+  height: 200px;
+  max-width: 960px;
+  margin-inline: auto;
+  border-radius: 16px;
+}
+
+.project-card > .row {
+  height: 100%;
+}
+
+.project-image-column {
+  height: 100%;
+}
+
+.project-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .project-card {
+    width: min(100%, 420px);
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .project-card > .row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 60% 40%;
+  }
+
+  .project-image-column {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    min-height: 0;
+    padding: 1rem 1rem 0;
+  }
+
+  .project-image {
+    display: block;
+    border-radius: 8px;
+  }
+
+  .project-details {
+    min-height: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.75rem 1rem 1rem;
+    overflow-y: auto;
+  }
+}
