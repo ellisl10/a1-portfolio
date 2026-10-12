@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Ellis Liang, ellisl1@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -11,7 +11,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
+- 1/1 Readme
 - */2 Basic HTML content
 - */1 Basic CSS styling
 - */1 Advanced feature
@@ -30,6 +30,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 (c) Advanced features
+Advanced features I included in my portfolio are a navigation bar
 
 
 
@@ -43,11 +44,12 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar.
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I did not consult with classmates or other individuals.
 
 
 7. Is there anything special we need to know in order to run your code?
