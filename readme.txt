@@ -12,7 +12,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 */10
 - 1/1 Readme
-- */2 Basic HTML content
+- 2/2 Basic HTML content
 - */1 Basic CSS styling
 - */1 Advanced feature
 - */2 Responsive layout
@@ -22,15 +22,16 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+Images with descriptive alt attributes, headings and paragraph text, links to external pages, multiple pages with navigation between them, and custom icons using Google Material Icons.
 
 
 (b) CSS features
+Modifying padding and margins, modifying link, text color, or other colors, adding custom fonts
 
 
 
 (c) Advanced features
-Advanced features I included in my portfolio are a navigation bar
+Creating a more complex page layout, by including a navigation bar and Leveraging nested selectors to specify format
 
 
 
@@ -44,7 +45,7 @@ Advanced features I included in my portfolio are a navigation bar
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar.
+I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar. I also used generative AI on the use of these components, using the following prompts: "Is it better to have a new navbar component on each page, or have one section of the page re-render dynamically on page navigation?"
 
 
 
