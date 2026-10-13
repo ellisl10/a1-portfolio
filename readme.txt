@@ -58,7 +58,7 @@ I did not ignore any errors.
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 I used the Bootstrap documentation, especially for creating page layout and adding Bootstrap components such as the navbar. 
-I also used generative AI on the use of components and generating alt text, using the following prompts: 
+I also used generative AI on the use of components, generating alt text, and writing/proofreading the readme, using the following prompts: 
     1. "Is it better to have a new navbar component on each page, or have one section of the page re-render dynamically on page navigation?"
     2. "How do you navigate between pages using nav links?"
     3. "Describe this image for an alt text attribute."
