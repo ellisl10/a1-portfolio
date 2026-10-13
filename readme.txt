@@ -10,7 +10,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+10/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
@@ -37,7 +37,19 @@ Creating a more complex page layout by including a navigation bar and leveraging
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
+The potential problems throughout my portfolio fell into these categories: images and icons, third-party scripts, navigation structure best practices, and link purpose elements. I chose to ignore these warnings because:
 
+Automated tools cannot verify whether alt text perfectly captures contextual nuances.
+
+Third-party scripts like the Bootstrap bundle trigger automated warnings due to the scanner's inability to statically analyze runtime DOM behavior.
+
+Structural best practices, such as missing skip links, sitemaps, or text direction attributes, are advisory recommendations rather than strict WCAG 2.0 AA violations.
+
+Link purpose warnings occur when icon fonts mixed with text confuse the scanner into thinking links are unlabeled.
+
+Essentially, because the warnings from the accessibility checker are generally due to the checker's own limitations or involve advisory recommendations rather than strict violations, I chose to ignore them.
+
+I did not ignore any errors.
 
 
 4. How long, in hours, did it take you to complete this assignment?
